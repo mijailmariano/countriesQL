@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "countriesql"
+version = "0.1.0"
+description = "GraphQL environment setup for https://countries.trevorblades"
+authors = ["Mijail Mariano"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+gql = "^3.5.0"
+requests = "^2.32.3"
+requests-toolbelt = "^1.0.0"
+
+[tool.poetry.group.dev.dependencies]
+jupyterlab = "^4.3.5"
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core>=2.0.0"]
+build-backend = "poetry.core.masonry.api"
